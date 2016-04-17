@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E01BDD0E1CC3E7110096C691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01BDD0D1CC3E7110096C691 /* AppDelegate.swift */; };
-		E01BDD101CC3E7110096C691 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E01BDD0F1CC3E7110096C691 /* GameScene.sks */; };
 		E01BDD121CC3E7110096C691 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01BDD111CC3E7110096C691 /* GameScene.swift */; };
 		E01BDD141CC3E7110096C691 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01BDD131CC3E7110096C691 /* GameViewController.swift */; };
 		E01BDD161CC3E7110096C691 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01BDD151CC3E7110096C691 /* Game.xcassets */; };
 		E01BDD191CC3E7110096C691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01BDD171CC3E7110096C691 /* Main.storyboard */; };
 		E01BDD1B1CC3E7110096C691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01BDD1A1CC3E7110096C691 /* Assets.xcassets */; };
+		E01BDD231CC3F3270096C691 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01BDD221CC3F3270096C691 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E01BDD0A1CC3E7110096C691 /* bounceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bounceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01BDD0D1CC3E7110096C691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E01BDD0F1CC3E7110096C691 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		E01BDD111CC3E7110096C691 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E01BDD131CC3E7110096C691 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E01BDD151CC3E7110096C691 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
 		E01BDD181CC3E7110096C691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E01BDD1A1CC3E7110096C691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E01BDD1C1CC3E7110096C691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01BDD221CC3F3270096C691 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				E01BDD0D1CC3E7110096C691 /* AppDelegate.swift */,
-				E01BDD0F1CC3E7110096C691 /* GameScene.sks */,
 				E01BDD111CC3E7110096C691 /* GameScene.swift */,
+				E01BDD221CC3F3270096C691 /* GameOverScene.swift */,
 				E01BDD131CC3E7110096C691 /* GameViewController.swift */,
 				E01BDD151CC3E7110096C691 /* Game.xcassets */,
 				E01BDD171CC3E7110096C691 /* Main.storyboard */,
@@ -130,7 +130,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E01BDD191CC3E7110096C691 /* Main.storyboard in Resources */,
-				E01BDD101CC3E7110096C691 /* GameScene.sks in Resources */,
 				E01BDD1B1CC3E7110096C691 /* Assets.xcassets in Resources */,
 				E01BDD161CC3E7110096C691 /* Game.xcassets in Resources */,
 			);
@@ -145,6 +144,7 @@
 			files = (
 				E01BDD121CC3E7110096C691 /* GameScene.swift in Sources */,
 				E01BDD141CC3E7110096C691 /* GameViewController.swift in Sources */,
+				E01BDD231CC3F3270096C691 /* GameOverScene.swift in Sources */,
 				E01BDD0E1CC3E7110096C691 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
