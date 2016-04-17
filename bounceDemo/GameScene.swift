@@ -87,9 +87,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody?.velocity = CGVectorMake(dx, dy)
             
             
-        default:
+        case .Ended:
             moves++
             print(moves)
+            break
+        default:
             break
         }
     }
