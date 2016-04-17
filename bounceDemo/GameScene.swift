@@ -85,9 +85,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             let dy = (player.physicsBody?.velocity.dy)! - relativeVelocity.y/2.0
             
             player.physicsBody?.velocity = CGVectorMake(dx, dy)
-            moves++
+            
             
         default:
+            moves++
+            print(moves)
             break
         }
     }
@@ -179,7 +181,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     
     func monsterDidCollideWithBorder(projectile:SKNode) {
-        print(monsterKilled)
+//        print(monsterKilled)
         monsterKilled++
         projectile.removeFromParent()
         
